@@ -2,12 +2,12 @@ name: Automated builds
 
 on:
   push:
-  pull_request: # They will only build the containers, not push them
-    types:
-      - opened
-      - reopened
-  schedule:
-    - cron: "0 0 * * *" # nightly
+#  pull_request: # They will only build the containers, not push them
+#    types:
+#      - opened
+#      - reopened
+#  schedule:
+#    - cron: "0 0 * * *" # nightly
 
 jobs:
   base:
